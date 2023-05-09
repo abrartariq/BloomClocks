@@ -2,11 +2,20 @@
 
 This repository contains the Golang implementation of the Bloom Clock algorithm, as described in the paper "The bloom clock to characterize causality in distributed systems" by Kshemkalyani et al.
 
-		"The Bloom Clock to Characterize Causality in Distributed Systems" introduces a new algorithm for capturing causal relationships between events in a distributed system. The algorithm uses a Bloom filter to efficiently capture causality and outperforms other approaches in terms of message overhead and space complexity. The paper presents a detailed analysis of the algorithm's theoretical properties and practical applicability, making it a significant contribution to the field of distributed systems.
+		"The Bloom Clock to Characterize Causality in Distributed Systems" introduces a new algorithm
+		for capturing causal relationships between events in a distributed system. The algorithm uses
+		a Bloom filter to efficiently capture causality and outperforms other approaches in terms of
+		message overhead and space complexity. The paper presents a detailed analysis of the algorithm's
+		theoretical properties and practical applicability, making it a significant contribution to the
+		field of distributed systems.
 
 Code Base Also Contains A python file to do the analysis of the Logs Genrated from CodeBase (analyzer.py)
 
-		This Python code analyzes distributed systems using a bloom clock to characterize causality. It reads event logs from text files, constructs event dictionaries, and calculates performance metrics such as accuracy, precision, and false positive rate. The code uses the matplotlib and scipy libraries for data visualization and statistical analysis. It also defines functions for checking the causality of events using vector clocks and bloom filters.
+		This Python code analyzes distributed systems using a bloom clock to characterize causality.
+		It reads event logs from text files, constructs event dictionaries, and calculates performance
+		metrics such as accuracy, precision, and false positive rate. The code uses the matplotlib and
+		scipy libraries for data visualization and statistical analysis. It also defines functions for
+		checking the causality of events using vector clocks and bloom filters.
 
 ## Dependencies
 - murmur3
